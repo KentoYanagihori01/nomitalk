@@ -1,0 +1,29 @@
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100vw;
+  height: 100vh;
+  background: linear-gradient(to right, #ffecd2, #fcb69f);
+  font-family: Arial, sans-serif;
+  padding: 2rem;
+  box-sizing: border-box;
+  overflow: hidden;
+  position: relative;
+}
+
+.content {
+  width: 100%;
+  max-width: 500px;
+  text-align: center;
+  user-select: none;
+  position: relative;
+  z-index: 20;
+}
+
+.themeList {
+  display: flex;
+  gap: 10px;
+  justify-content: center;
+  margin-bottom: 1.5rem;
+}
